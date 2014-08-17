@@ -3,8 +3,7 @@ layout: default
 title: "modelo x"
 ---
 {% for post in paginator.posts %}
-  <article class="post">
-    <header class="entry-header">
+
       <h1 class="entry-title">
         <a href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">{{ post.title }}</a>
       </h1>
@@ -15,9 +14,7 @@ title: "modelo x"
           </a>
         </span>
       </div>
-    </header>
 
-  </article>
 {% endfor %}
 
 
