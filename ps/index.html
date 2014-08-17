@@ -18,7 +18,7 @@ title: "modelo x"
     </header>
     <div class="entry-content">
       {% if post.description %}
-        {{ post.description | markdownify }}
+        {{ post.description }}
           <a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continue Reading</a>
         {% else %}
           {{ post.content }}
