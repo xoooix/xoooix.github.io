@@ -13,12 +13,12 @@ paginate:         10
 encoding:         UTF-8
 future:           false
 name:             OOCN
-url:              http://github.oocn.eu
-description:      Sitio onde se respira politica de 
+url:              http://oocn.eu
+description:      Sitio onde se respira política com significativa qualidade de ar interior 
 
 # Links
-expo_repo:        https://github.oocn.eu
-expo_new_issue:   https://github.oocn.eu
+expo_repo:        https://oocn.eu
+expo_new_issue:   https://oocn.eu
 
-docs:             http://github.oocn.eu
-blog:             http://github.oocn.eu
+docs:             http://oocn.eu
+blog:             http://oocn.eu
