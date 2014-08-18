@@ -1,17 +1,17 @@
 <div class="paginator">
   {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="paginate older">Older</a>
+    <a href="/page{{paginator.next_page}}" class="paginate older">Anteriores</a>
   {% else %}
-    <span class="paginate next">Older</span>
+    <span class="paginate next">Anteriores</span>
   {% endif %}
 
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a href="/" class="paginate newer">Newer</a>
+      <a href="/" class="paginate newer">Recentes</a>
     {% else %}
-      <a href="/page{{paginator.previous_page}}" class="paginate newer">Newer</a>
+      <a href="/page{{paginator.previous_page}}" class="paginate newer">Recentes</a>
     {% endif %}
   {% else %}
-    <span class="paginate previous">Newer</span>
+    <span class="paginate previous">Recentes</span>
   {% endif %}
 </div>
