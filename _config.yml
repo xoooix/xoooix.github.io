@@ -9,7 +9,7 @@ permalink:        pretty
 # Settings
 destination:      ./
 exclude:          ["README.md"]
-paginate:         10
+paginate:         5
 encoding:         UTF-8
 future:           false
 name:             OOCN - Observatório oceanográfico do canhão da Nazaré
