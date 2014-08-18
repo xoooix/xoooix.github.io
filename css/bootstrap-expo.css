@@ -2,8 +2,8 @@
 layout: nil
 ---
 
-{% include bootstrap.min.css %}
-{% include entypo.css %}
+{% include css/bootstrap.min.css %}
+{% include css/entypo.css %}
 
 
 /*
