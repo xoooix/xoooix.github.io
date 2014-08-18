@@ -4,22 +4,18 @@ title: "Home"
 ---
 
 {% for post in paginator.posts %}
-<div class="entry">
-<hr>
-<div class="entry-content"><h2 class="entry-title"><a class="white" href="{{ post.url }}">{{ post.title }}</a></h2></div>
-<hr>
-<a class="entry-thumb" href="{{ post.source }}" title="Visit {{ post.title }}" target="_blank">
 
-<span class="icon icon-forward entry-icon"></span>
-</a>
-<div class="entry-content">
-<!--<h2 class="entry-title">
-<a href="{{ post.url }}">{{ post.title }}</a>
-</h2>-->
-<p class="entry-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-</div>
-<hr>
+      <h1 class="entry-title">
+        <a href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">{{ post.title }}</a>
+      </h1>
+      <div class="entry-meta entry-meta-header">
+        <span class="icon-left entry-meta-icon icon-entry-date">
+          <a class="entry-meta-link" href="{{ post.url }}" rel="bookmark" title="{{ post.date }}">
+            <time class="date updated" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          </a>
+        </span>
+      </div>
+
 {% endfor %}
 
 {% include pagination.html %}
