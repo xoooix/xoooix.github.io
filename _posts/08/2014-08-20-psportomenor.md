@@ -1,7 +1,7 @@
 ---
 date: 2014-08-19 00:00:00
-title: post
-layout:  PS porto
+title: PS porto
+layout:  post
 description: PS porto (pequenino) tenta solução
 tags: 'Carneiro','PS','Primárias'
 published: FALSE
