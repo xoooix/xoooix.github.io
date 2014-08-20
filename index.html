@@ -29,10 +29,10 @@ title: "Home"
         </span>
       </div>
     </header>
-    <div class="text-left text-center">
+    <div class="text-left">
       {% if post.description %}
         {{ post.description | markdownify }}
-          <a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continuar a ler</a>
+          <a class="continue-reading text-center" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continuar a ler</a>
         {% else %}
           {{ post.content }}
       {% endif %}
