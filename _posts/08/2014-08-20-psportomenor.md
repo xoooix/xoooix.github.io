@@ -5,7 +5,7 @@ layout: post
 title: PS porto
 description: 'PS porto (pequenino) tenta solução'
 tags: ['Carneiro','PS','Primárias']
-published: false
+published: true
 suggested_tweet:
 url: 'http://politica.oocn.eu/2014/08/psportomenor'
 text: 'Seguro representa o quê? Representa banqueiros...'
