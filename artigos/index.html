@@ -2,7 +2,8 @@
 layout: default
 title: "modelo x"
 ---
-     <p>pppp<p/>
+{% include teaser.html %}
+
 {% for post in paginator.posts %}
 
       <h1 class="entry-title">
@@ -18,14 +19,7 @@ title: "modelo x"
 
 {% endfor %}
 
-<hr>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
 
 
