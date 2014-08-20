@@ -1,0 +1,41 @@
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!--<script src="/assets/js/chart.js"></script>-->
+    <script src="/assets/js/bootstrap.js"></script>
+    <!--<script src="/assets/js/prism.js"></script>-->
+    <!--<script src="/assets/js/jquery.mCustomScrollbar.min.js"></script>-->
+    <script src="/assets/js/jquery.newsTicker.js"></script>
+    <script>
+    		$(window).load(function(){
+	            $('code.language-javascript').mCustomScrollbar();
+	        });
+            var nt_title = $('#nt-title').newsTicker({
+                row_height: 40,
+                max_rows: 1,
+                duration: 3000,
+                pauseOnHover: 0
+            });
+            var nt_title2 = $('#nt-title2').newsTicker({
+                row_height: 40,
+                max_rows: 1,
+                duration: 6000,
+                pauseOnHover: 0
+            });
+            var nt_example1 = $('#nt-example1').newsTicker({
+                row_height: 80,
+                max_rows: 1,
+                duration: 4000
+            });
+            var nt_example2 = $('#nt-example2').newsTicker({
+                row_height: 80,
+                max_rows: 1,
+                duration: 5000
+            });
+            var nt_example3 = $('#nt-example3').newsTicker({
+                row_height: 80,
+                max_rows: 1,
+                duration: 9000
+            });
+                    </script>
