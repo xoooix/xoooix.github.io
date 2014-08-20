@@ -8,7 +8,7 @@ layout: default
 </div>
 <div class="related">
 <h2>"Outros posts"</h2>
-<ul class="related-posts nt-example2">
+<ul class="related-posts" id="nt-example2">
 {% for post in site.related_posts limit:20 %}
 <li>
 <h3>
@@ -20,7 +20,7 @@ layout: default
 </li>
 {% endfor %}
 </ul>
-<ul class="related-posts nt-example1">
+<ul class="related-posts" id="nt-example1">
 {% for post in site.related_posts limit:20 %}
 <li>{{ post.title }}
 </li>
