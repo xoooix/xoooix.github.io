@@ -1,5 +1,5 @@
 ---
-date: 2014/08/19 00:00
+date: 2014-08-19 00:00:00
 title: post
 layout:  PS porto
 description: PS porto (pequenino) tenta solução
