@@ -18,12 +18,13 @@ layout: default
 </a>
 </h3>
 </li>
+{% endfor %}
+</ul>
 <ul class="related-posts nt-example1">
 {% for post in site.related_posts limit:20 %}
 <li>{{ post.title }}
 </li>
 {% endfor %}
-</ul>
 </ul>
 </div>
   <div id="">
