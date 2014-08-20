@@ -20,37 +20,8 @@ layout: default
 </li>
 {% endfor %}
 </ul>
-<ul class="related-posts" id="nt-example1">
-{% for post in site.related_posts limit:20 %}
-<li>{{ post.title }}
-</li>
-{% endfor %}
-</ul>
 </div>
-  <div id="">
-	    <div class="container">
-	    	<div class="row">
-	    		<div class="col-lg-10 col-lg-offset-1 centered">
-	    			<div id="nt-title-container">
-	    				<ul id="nt-title">
-		    				<li>
-		    					A powerful, flexible and animated vertical news ticker plugin.
-		    				</li>
-		    				<li>
-		    					Provides hight flexibility thanks to numerous callbacks & methods.
-		    				</li>
-		    				<li>
-		    					Fully customizable to every kind of vertical scrolling need.
-		    				</li>
-		    				<li>
-		    					Light-weight and optimized JQuery plugin.
-		    				</li>
-	    				</ul>
-	    			</div>
-        </div><!-- /col-lg-8 -->
-	    	</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /hello -->
+
 {% include ticker.html %}
 
  <script>
@@ -70,7 +41,7 @@ layout: default
                 pauseOnHover: 0
             });
             var nt_example1 = $('#nt-example1').newsTicker({
-                row_height: 80,
+                row_height: 40,
                 max_rows: 1,
                 duration: 4000
             });
