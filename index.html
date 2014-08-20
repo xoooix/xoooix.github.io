@@ -21,6 +21,7 @@ title: "Home"
       <h1 class="entry-title">
         <a href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">{{ post.title }}</a>
       </h1>
+      <!--
       <div class="entry-meta entry-meta-header text-right">
         <span class="icon-left entry-meta-icon icon-entry-date">
           <a class="entry-meta-link" href="{{ post.url }}" rel="bookmark" title="{{ post.date }}">
@@ -28,18 +29,19 @@ title: "Home"
           </a>
         </span>
       </div>
+      -->
     </header>
     <div class="text-left">
       {% if post.description %}
         {{ post.description | markdownify }}
-         <span class="icon-left entry-meta-icon icon-entry-date">
-          <a class="entry-meta-link" href="{{ post.url }}" rel="bookmark" title="{{ post.date }}">
-            <time class="date updated" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          </a>
+        <span class="icon-left entry-meta-icon icon-entry-date">
+        <a class="entry-meta-link" href="{{ post.url }}" rel="bookmark" title="{{ post.date }}">
+        <time class="date updated" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </a>
         </span>
-          <div class="text-center"><a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continuar a ler</a></div>
+        <div class="text-center"><a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continuar a ler</a></div>
         {% else %}
-          {{ post.content }}
+        {{ post.content }}
       {% endif %}
     </div>
   </article>
