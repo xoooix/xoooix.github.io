@@ -13,7 +13,7 @@ title: "Lista de artigos"
         <span class="icon-left entry-meta-icon icon-entry-date">
           <a class="entry-meta-link" href="{{ post.url }}" rel="bookmark" title="{{ post.date }}">
             <time class="date updated" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          </a>
+          </a>#### <a href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">{{ post.title }}</a>
         </span>
       </div>
 
